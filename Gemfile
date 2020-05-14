@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 ruby "2.1.8"
 
-gem 'rails', '4.2.6'
+gem 'rails', '5.0.0'
 gem 'rails_12factor', group: :production
 
 gem 'asciidoctor', '>=1.5.0'
 gem 'dalli'
-gem 'exceptional'
+gem 'exceptional', '>= 2.0.33'
 gem 'faraday'
 gem 'faraday_middleware'
 gem 'memcachier'
@@ -16,7 +16,7 @@ gem "pg"
 gem 'rack-timeout'
 gem 'tilt'
 gem 'tire'
-gem 'unicorn'
+gem 'unicorn', '>= 4.8.3'
 
 gem 'json'
 gem 'yajl-ruby'
@@ -30,9 +30,9 @@ gem 'nokogiri'
 
 # Assets
 gem 'compass-rails'
-gem 'coffee-rails'
-gem 'jquery-rails'
-gem 'sass-rails', '4.0.3'
+gem 'coffee-rails', '>= 4.1.1'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'sass-rails', '5.0.5'
 gem 'uglifier'
 
 group :development do
@@ -40,7 +40,7 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
   gem "foreman"
-  gem "taps"
+  gem "taps", ">= 0.3.24"
 end
 
 group :development, :test do
@@ -53,7 +53,7 @@ end
 group :test do
   gem 'database_cleaner'
   gem 'fabrication'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.0.2'
   gem 'shoulda-matchers'
   gem 'webmock'
   gem 'rails-perftest'
