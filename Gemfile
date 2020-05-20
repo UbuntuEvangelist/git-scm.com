@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby "2.1.8"
 
-gem 'rails', '4.2.6'
+gem 'rails', '5.2.4.3'
 gem 'rails_12factor', group: :production
 
 gem 'asciidoctor', '>=1.5.0'
@@ -15,7 +15,7 @@ gem 'octokit'
 gem "pg"
 gem 'rack-timeout'
 gem 'tilt'
-gem 'tire'
+gem 'tire', '>= 0.6.2'
 gem 'unicorn'
 
 gem 'json'
@@ -30,9 +30,9 @@ gem 'nokogiri'
 
 # Assets
 gem 'compass-rails'
-gem 'coffee-rails'
-gem 'jquery-rails'
-gem 'sass-rails', '4.0.3'
+gem 'coffee-rails', '>= 4.2.2'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'sass-rails', '5.0.5'
 gem 'uglifier'
 
 group :development do
@@ -53,8 +53,8 @@ end
 group :test do
   gem 'database_cleaner'
   gem 'fabrication'
-  gem 'rspec-rails'
-  gem 'shoulda-matchers'
+  gem 'rspec-rails', '>= 3.0.2'
+  gem 'shoulda-matchers', '>= 2.6.2'
   gem 'webmock'
   gem 'rails-perftest'
 end
