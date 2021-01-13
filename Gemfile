@@ -25,7 +25,7 @@ gem 'netrc'
 gem 'launchy'
 gem 'rubyzip'
 gem 'diff-lcs'
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 gem 'nokogiri'
 
 # Assets
