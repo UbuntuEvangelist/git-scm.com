@@ -15,7 +15,7 @@ gem 'octokit'
 gem "pg"
 gem 'rack-timeout'
 gem 'tilt'
-gem 'tire'
+gem 'tire', '>= 0.6.2'
 gem 'unicorn'
 
 gem 'json'
