@@ -15,7 +15,7 @@ gem 'octokit'
 gem "pg"
 gem 'rack-timeout'
 gem 'tilt'
-gem 'tire'
+gem 'tire', '>= 0.6.2'
 gem 'unicorn'
 
 gem 'json'
@@ -40,7 +40,7 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
   gem "foreman"
-  gem "taps"
+  gem "taps", ">= 0.3.24"
 end
 
 group :development, :test do
