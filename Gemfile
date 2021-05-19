@@ -26,12 +26,12 @@ gem 'launchy'
 gem 'rubyzip'
 gem 'diff-lcs'
 gem 'redcarpet'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.11.4'
 
 # Assets
 gem 'compass-rails'
-gem 'coffee-rails'
-gem 'jquery-rails'
+gem 'coffee-rails', '>= 4.0.1'
+gem 'jquery-rails', '>= 3.1.1'
 gem 'sass-rails', '4.0.3'
 gem 'uglifier'
 
@@ -53,7 +53,7 @@ end
 group :test do
   gem 'database_cleaner'
   gem 'fabrication'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.0.2'
   gem 'shoulda-matchers'
   gem 'webmock'
   gem 'rails-perftest'
