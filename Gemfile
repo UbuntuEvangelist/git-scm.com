@@ -26,7 +26,7 @@ gem 'launchy'
 gem 'rubyzip'
 gem 'diff-lcs'
 gem 'redcarpet'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.13.2'
 
 # Assets
 gem 'compass-rails'
