@@ -19,7 +19,7 @@ gem 'tire'
 gem 'unicorn'
 
 gem 'json'
-gem 'yajl-ruby'
+gem 'yajl-ruby', '>= 1.4.2'
 gem 'haml'
 gem 'netrc'
 gem 'launchy'
