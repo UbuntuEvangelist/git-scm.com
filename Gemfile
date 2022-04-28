@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby "2.1.8"
 
-gem 'rails', '4.2.6'
+gem 'rails', '5.2.7.1'
 gem 'rails_12factor', group: :production
 
 gem 'asciidoctor', '>=1.5.0'
@@ -30,9 +30,9 @@ gem 'nokogiri'
 
 # Assets
 gem 'compass-rails'
-gem 'coffee-rails'
-gem 'jquery-rails'
-gem 'sass-rails', '4.0.3'
+gem 'coffee-rails', '>= 4.2.2'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'sass-rails', '5.0.5'
 gem 'uglifier'
 
 group :development do
