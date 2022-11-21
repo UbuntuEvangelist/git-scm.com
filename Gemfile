@@ -5,7 +5,7 @@ gem 'rails', '4.2.6'
 gem 'rails_12factor', group: :production
 
 gem 'asciidoctor', '>=1.5.0'
-gem 'dalli'
+gem 'dalli', '>= 3.2.3'
 gem 'exceptional'
 gem 'faraday'
 gem 'faraday_middleware'
